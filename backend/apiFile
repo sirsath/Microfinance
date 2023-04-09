@@ -1,0 +1,13 @@
+
+add interest api  
+             POST  :-  http://localhost:5000/loan/addintrest
+             GET   :-  http://localhost:5000/loan/
+
+admin Login api 
+             POST :- http://localhost:5000/login/admin
+             GET  :- http://localhost:5000/login/
+
+
+Customer Register api
+           POST   :- http://localhost:5000/customer/register 
+           GET    :- http://localhost:5000/customer/          

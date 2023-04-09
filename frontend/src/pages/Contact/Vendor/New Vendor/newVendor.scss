@@ -1,0 +1,15 @@
+.NewVendor {
+    display: flex;
+    width: 100%;
+    .NewVendorContainer {
+      flex: 6;
+  
+      .title {
+        font-size: 20px;
+        font-weight: 700;
+        margin: 10px;
+  
+      }
+    }
+  }
+  

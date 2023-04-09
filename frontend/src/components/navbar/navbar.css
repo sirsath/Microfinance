@@ -1,0 +1,85 @@
+.navbar {
+  height: 50px;
+  border-bottom: 0.5px solid rgb(234, 158, 158);
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #555;
+  background: rgba(255, 143, 143, 0.074);
+}
+.navbar .wrapper {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar .wrapper .title {
+  font-size: 22px;
+  font-weight: bold;
+  color: rgba(59, 54, 76, 0.337254902);
+  text-shadow: 5px 5px 10px rgba(59, 54, 76, 0.337254902);
+}
+.navbar .wrapper .title:hover {
+  color: rgb(95, 95, 126);
+}
+.navbar .wrapper .search {
+  display: flex;
+  align-items: center;
+  border: 0.5px solid lightgray;
+  padding: 3px;
+}
+.navbar .wrapper .search input {
+  border: none;
+  outline: none;
+  background: transparent;
+}
+.navbar .wrapper .search input::-moz-placeholder {
+  font-size: 12px;
+}
+.navbar .wrapper .search input::placeholder {
+  font-size: 12px;
+}
+.navbar .wrapper .items {
+  display: flex;
+  align-items: center;
+}
+.navbar .wrapper .items .profile_item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar .wrapper .items .profile_avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+.navbar .wrapper .items .item {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  position: relative;
+}
+.navbar .wrapper .items .item .icon {
+  font-size: 20px;
+}
+.navbar .wrapper .items .item .avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+.navbar .wrapper .items .item .counter {
+  width: 15px;
+  height: 15px;
+  background-color: red;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  font-weight: bold;
+  position: absolute;
+  top: -5px;
+  right: -5px;
+}/*# sourceMappingURL=navbar.css.map */

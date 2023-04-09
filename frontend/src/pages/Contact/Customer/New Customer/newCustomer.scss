@@ -1,0 +1,14 @@
+.NewCustomer {
+  display: flex;
+  width: 100%;
+  .NewCustomerContainer {
+    flex: 6;
+
+    .title {
+      font-size: 20px;
+      font-weight: 700;
+      margin: 10px;
+
+    }
+  }
+}
